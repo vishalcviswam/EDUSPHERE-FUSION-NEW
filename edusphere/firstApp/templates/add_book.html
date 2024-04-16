@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Book Content</title>
+</head>
+<body>
+    <h2>Add Book Content</h2>
+    <form method="post">
+        {% csrf_token %}
+        <label for="content">Book Content:</label><br>
+        <textarea id="content" name="content" rows="4" required></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

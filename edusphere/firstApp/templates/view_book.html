@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Book Content</title>
+</head>
+<body>
+    <h2>Book Content</h2>
+    <p><strong>Creator ID:</strong> {{ creator_id }}</p>
+    <p><strong>Book ID:</strong> {{ book_id }}</p>
+    <p><strong>Content:</strong> {{ content }}</p>
+    <a href="{% url 'add_book' %}">Add Another Book</a>
+</body>
+</html>
