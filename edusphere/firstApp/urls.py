@@ -96,8 +96,6 @@ urlpatterns = [
     path('community/chat/<int:community_id>/', views.community_chat, name='community_chat'),
     path('community/chat_user/<int:community_id>/', views.community_chat_user, name='community_chat_user'),
     path('code-editor/', views.code_editor, name='code_editor'),
-    path('add-book/', views.add_book, name='add_book'),
-    path('view-book/<int:book_id>/', views.view_book, name='view_book'),
 
 
     #restframework
